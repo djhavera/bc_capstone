@@ -5,7 +5,7 @@ const json_proof = require('./final_proof/proof');
 // - use the contents from proof.json generated from zokrates steps
 
     
-contract('Verifier', accounts => {
+contract('TestSquareVerifier.js', accounts => {
 
     const account = accounts[0];
 
