@@ -5,7 +5,7 @@ const json_proof = require('./final_proof/proof');
 // - use the contents from proof.json generated from zokrates steps
 
     
-contract('TestSquareVerifier.js', accounts => {
+contract('TestSquareVerifier', accounts => {
 
     const account = accounts[0];
 
@@ -15,23 +15,16 @@ contract('TestSquareVerifier.js', accounts => {
         });
 
         it('Test verification proof with accurate input', async function () {
-
-            //let isVerified = await this.contract.verifyTx.call(A,A_p, B, B_p, C, C_p, H, K, accurateProofInput,{from: account});
-            const result = await this.contract.verifyTx( json_proof.proof.A, json_proof.proof.A_p, json_proof.proof.B, json_proof.proof.B_p, json_proof.proof.C, json_proof.proof.C_p, json_proof.proof.H, json_proof.proof.K, json_proof.proof.input, { from: account } ); 
-            console.log('!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!')
-            console.log(proof);
-            console.log(input);
-           // console.log(result);
-            //console.logs(result.logs[0].event);
-            //assert.equal(result, false, "Incorrect proof");
-           // assert.equal(isVerified, true, "Incorrect proof");
+            let verified = await this.contract.verifyTx.call(json_proof.proof.A, json_proof.proof.A_p, json_proof.proof.B, json_proof.proof.B_p, json_proof.proof.C, json_proof.proof.C_p, json_proof.proof.H, json_proof.proof.K, json_proof.input);
+            console.log(verified);
+            //console.logs(verified.logs[0].event);
+            assert.equal(verified, false, "Incorrect proof");
         });
-/*
-        // Test verification with incorrect proof
-        it('Test verification with incorrect proof', async function () {
-            let isVerified = await this.contract.verifyTx.call(A, A_p, B, B_p, C, C_p, H, K, inaccurateProofInput, {from: account});
-            assert.equal(isVerified, false, "Correct proof");
-        });*/
+        it('Test verification with incorrect input', async function () {
+            let k = ["0x1874833288e8168c06e047abbf876bd1563b658a02f68557c7a0215fc9066581", "0x2157aea92488b7b740ecc728d69c05accdfbac62c20262930f11c3424b4b709f"];
+            let verified = await this.contract.verifyTx.call(json_proof.proof.A, k, json_proof.proof.B, json_proof.proof.B_p, json_proof.proof.C, json_proof.proof.C_p, json_proof.proof.H, json_proof.proof.K, json_proof.input);
+            assert.equal(verified, false, "Correct proof");
+        })
     });
 
 })
