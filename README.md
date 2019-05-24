@@ -72,6 +72,13 @@ Run truffle tests:
 
 The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
 
+# Open Sea Rinkeby Network
+## My Account Items (Minted Tokens)
+https://rinkeby.opensea.io/accounts/0x27d8d15cbc94527cadf5ec14b69519ae23288b95
+
+## Purchased tokens (from second metamask account)
+https://rinkeby.opensea.io/accounts/0x018c2dabef4904ecbd7118350a0c54dbeae3549a
+
 # Project Resources
 
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
