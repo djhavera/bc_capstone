@@ -16,17 +16,17 @@ Run truffle tests:
 # Contracts Deployed on Rinkeby Test Network
   ## Deploying 'Verifier'
    --------------------
-   > transaction hash:    0xcdca8bb69c7181da72f2a6a9c3b54190683eae43f9676ceecc019d4e2eae0b69
-   > Blocks: 0            Seconds: 8
-   > contract address:    0xc8Bc715E6C4d8F196D2D9203bbf13bb1F513644A
-   > block number:        4432962
-   > block timestamp:     1558624016
-   > account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
-   > balance:             4.819842091000000007
-   > gas used:            1774666
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.03549332 ETH
+   - transaction hash:    0xcdca8bb69c7181da72f2a6a9c3b54190683eae43f9676ceecc019d4e2eae0b69
+   - Blocks: 0            Seconds: 8
+   - contract address:    0xc8Bc715E6C4d8F196D2D9203bbf13bb1F513644A
+   - block number:        4432962
+   - block timestamp:     1558624016
+   - account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
+   - balance:             4.819842091000000007
+   - gas used:            1774666
+   - gas price:           20 gwei
+   - value sent:          0 ETH
+   - total cost:          0.03549332 ETH
 
 
    ## Deploying 'SolnSquareVerifier'
