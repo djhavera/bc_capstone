@@ -64,7 +64,7 @@ event VerifierChanged(address newVerifier);
 					uint[2] memory H, 
 					uint[2] memory K, 
 					uint[2] memory input) public{
-		//require(Verifier.verifyTx(A, A_p, B, B_p, C, C_p, H, K, input), "Invalid Solution...Tx Verified");
+		require(Verifier.verifyTx(A, A_p, B, B_p, C, C_p, H, K, input), "Invalid Solution...Tx Verified");
 		addSolutionToArray(_to, _tokenId, A, A_p, B, B_p, C, C_p, H, K, input);
 		super.mint(_to, _tokenId);
     }
