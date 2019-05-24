@@ -41,15 +41,7 @@ event VerifierChanged(address newVerifier);
         //solutions.push(sol);
         emit solutionAddedEvent(_solutionAddress);
     }
-/*
-    function isSolutionUnique(bytes32 key) public view returns (bool){
-    	bool isUnique = true;
-    	if (solutionsSubmitted[key].solutionAddress != address(0)){
-    		isUnique = false;
-    	}
-		return isUnique;	
-    }
-*/
+
 // TODO Create a function to mint new NFT only after the solution has been verified
 //  - make sure the solution is unique (has not been used before)
 //  - make sure you handle metadata as well as tokenSuplly
