@@ -14,7 +14,7 @@ Run truffle tests:
 - truffle test
 
 # Contracts Deployed on Rinkeby Test Network
-  ##Deploying 'Verifier'
+  ## Deploying 'Verifier'
    --------------------
    > transaction hash:    0xcdca8bb69c7181da72f2a6a9c3b54190683eae43f9676ceecc019d4e2eae0b69
    > Blocks: 0            Seconds: 8
@@ -29,46 +29,46 @@ Run truffle tests:
    > total cost:          0.03549332 ETH
 
 
-   ##Deploying 'SolnSquareVerifier'
+   ## Deploying 'SolnSquareVerifier'
    ------------------------------
-   > transaction hash:    0x68cfa61eec2d12efcf7110fdd326f0965e909c57387f7b99b42719ce9a259ee7
-   > Blocks: 0            Seconds: 12
-   > contract address:    0x019d9151485749b7613f8F5A514BB6A555f8f692
-   > block number:        4432963
-   > block timestamp:     1558624031
-   > account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
-   > balance:             4.733171351000000007
-   > gas used:            4333537
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.08667074 ETH
+   - transaction hash:    0x68cfa61eec2d12efcf7110fdd326f0965e909c57387f7b99b42719ce9a259ee7
+   - Blocks: 0            Seconds: 12
+   - contract address:    0x019d9151485749b7613f8F5A514BB6A555f8f692
+   - block number:        4432963
+   - block timestamp:     1558624031
+   - account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
+   - balance:             4.733171351000000007
+   - gas used:            4333537
+   - gas price:           20 gwei
+   - value sent:          0 ETH
+   - total cost:          0.08667074 ETH
 
 
-   ##Deploying 'CustomERC721Token'
+   ## Deploying 'CustomERC721Token'
    -----------------------------
-   > transaction hash:    0x534ec1e491241cbf964571f0940eeb3a41e8cf6a59395bba2f037ee77981c5ec
-   > Blocks: 1            Seconds: 12
-   > contract address:    0x45e7cC5E43A950CD1d247b56a37cAeEFd7A28a26
-   > block number:        4432964
-   > block timestamp:     1558624046
-   > account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
-   > balance:             4.658522211000000007
-   > gas used:            3732457
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.07464914 ETH
+   - transaction hash:    0x534ec1e491241cbf964571f0940eeb3a41e8cf6a59395bba2f037ee77981c5ec
+   - Blocks: 1            Seconds: 12
+   - contract address:    0x45e7cC5E43A950CD1d247b56a37cAeEFd7A28a26
+   - block number:        4432964
+   - block timestamp:     1558624046
+   - account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
+   - balance:             4.658522211000000007
+   - gas used:            3732457
+   - gas price:           20 gwei
+   - value sent:          0 ETH
+   - total cost:          0.07464914 ETH
 
 
-   > Saving migration to chain.
-   > Saving artifacts
+   - Saving migration to chain.
+   - Saving artifacts
    -------------------------------------
-   > Total cost:           0.1968132 ETH
+   - Total cost:           0.1968132 ETH
 
 
-##Summary
+## Summary
 =======
-> Total deployments:   4
-> Final cost:          0.20227644 ETH
+- Total deployments:   4
+- Final cost:          0.20227644 ETH
 
 The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
 
